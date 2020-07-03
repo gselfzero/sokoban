@@ -147,7 +147,7 @@ int main() {
     noecho();
     setup();
     while(!gameOver) {
-        mvprintw(0,0,"dests: %d", destCount);
+        mvprintw(0,0,"Score: %d", destCount);
         printMap();
         int ch = getch();
         if (ch == 'a') dir = LEFT;
